@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "californium",
+  "version": "${version}",
+  "name": "Californium",
+  "description": "Adaptive client-side performance optimizer for Fabric.",
+  "authors": ["Californium Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.californium.CaliforniumClient"
+    ]
+  },
+  "mixins": [
+    "californium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

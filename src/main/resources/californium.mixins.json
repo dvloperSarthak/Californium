@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.californium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EntityDistanceTickMixin",
+    "ParticleThrottleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
